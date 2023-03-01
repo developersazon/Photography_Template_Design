@@ -1,0 +1,68 @@
+/*Global section start here*/
+*  {
+	font-family: 'Open Sans', sans-serif;
+}
+/*Global section end here*/
+
+
+/*Banner section start here*/
+.carousel-caption {
+	bottom: 50%;
+	transform: translate(0, 50%);
+}
+/*Banner section end here*/
+
+
+
+/*Instragram section start here*/
+#instagram .color {
+	background-color: #2c2c2c;
+}
+figure{
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+.img-fix {
+	max-width: 100%;
+}
+
+figure figcaption {
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	transition: all 0.5s;
+}
+figure:hover figcaption {
+	top: 0;	
+}
+figure figcaption p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+/*Instragram section end here*/
+
+ 
+
+/*About section start here*/
+#about .media i {
+	color: blue;
+}
+/*About section end here*/
+
+
+
+/*Footer section start here*/
+.container-fluid {
+	background: #373737;
+}
+#two {
+	background-color: #333333;
+}
+/*Footer section end here*/
